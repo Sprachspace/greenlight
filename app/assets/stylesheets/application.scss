@@ -51,7 +51,8 @@
   outline: none !important;
 }
 
-html, body {
+html,
+body {
   font-family: "Source Sans Pro" !important;
   position: relative;
   width: 100%;
@@ -75,6 +76,8 @@ a {
 
 .header {
   height: $header-height;
+  background-image: linear-gradient(#d1ebcb, white);
+  border-color: white;
 }
 
 .wrapper {
@@ -144,7 +147,7 @@ a {
 }
 
 input:focus {
-    border-color: $primary !important;
+  border-color: $primary !important;
 }
 
 .list-group-item-action.active {
@@ -174,7 +177,7 @@ table {
   }
 }
 
-.cursor-pointer{
+.cursor-pointer {
   cursor: pointer;
 }
 
